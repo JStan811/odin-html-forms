@@ -4,12 +4,13 @@ body {
   background-color: #ECEEF1;
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  color: #393A3D;
 }
 
 button {
   background-color: #0077C5;
   color: white;
-  border: 1px solid darkgray;
+  border: 1px solid #4c4c4c;
   border-radius: 4px;
   display: flex;
   justify-content: center;
@@ -20,16 +21,21 @@ button {
 /* sign-in */
 
 .sign-in {
-  background-color: bisque;
   display: flex;
   justify-content: end;
   align-items: center;
   gap: 8px;
   font-size: 13px;
   padding-right: 30px;
+  color: #393A3D;
 }
 
-.sign-in a {
+.sign-in p {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+a {
   color: #0077C5;
   text-decoration: none;
 }
@@ -43,16 +49,16 @@ button {
 /* sign-up */
 
 .sign-up {
-  background-color: lightblue;
-  width: 400px;
-  text-align: center;
+  width: 350px;
+  text-align: start;
   margin-right: auto;
   margin-left: auto;
   padding: 0 25px;
 }
 
 .sign-up header {
-  background-color: darkkhaki;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .logo {
@@ -79,36 +85,94 @@ button {
 }
 
 form {
-  background-color: cornsilk;
-  padding: 20px
+  background-color: white;
+  padding: 20px;
+  border-top: 1px solid #c7c7c7;
+  border-left: 1px solid #c7c7c7;
+  border-right: 1px solid #c7c7c7;
+  border-radius: 2px;
+}
+
+
+form h1 {
+  font-weight: normal;
+  text-align: center;
+}
+
+.form-heading-subtext {
+  font-size: 14px;
+  width: 275px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #393A3D;
 }
 
 .form-paragraph {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin-bottom: 0;
+}
+
+label {
+  margin-bottom: 12px;
+  margin-top: 16px;
+  font-size: 14px;
 }
 
 input {
-  width: 340px;
+  width: 300px;
   height: 24px;
+  border: 1px solid #c7c7c7;
+  border-radius: 2px;
+}
+
+span {
+  color: #404040;
+  font-weight: 300;
+}
+
+.phone-subtext {
+  font-size: 10px;
+  margin-top: 4px;
 }
 
 .sign-up button {
   height: 40px;
-  width: 350px;
+  width: 300px;
+  margin-top: 24px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+form footer {
+  text-align: center;
+  font-size: 12px;
 }
 
 .sign-up-footer {
   padding: 4px;
+  font-size: 10px;
+  text-align: center;
+  padding: 14px;
+  border-bottom: 1px solid #c7c7c7;
+  border-left: 1px solid #c7c7c7;
+  border-right: 1px solid #c7c7c7;
+  border-radius: 2px;
 }
 
 /* legal stuff */
 
 .legal-stuff {
-  background-color: lightpink;
   text-align: center;
-  padding: 40px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  font-size: 12px;
+}
+
+.legal-stuff p {
+  margin: 8px;
 }
 
 ul {
@@ -123,11 +187,7 @@ ul {
 /* footer */
 
 .body-footer {
-  background-color: lime;
+  background-color: white;
   padding: 20px;
-}
-
-.body-footer a {
-  color: #0077C5;
-  text-decoration: none;
+  font-size: 14px;
 }
