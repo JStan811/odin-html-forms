@@ -27,7 +27,6 @@ button {
   gap: 8px;
   font-size: 13px;
   padding-right: 30px;
-  color: #393A3D;
 }
 
 .sign-in p {
@@ -106,7 +105,6 @@ form h1 {
   margin-right: auto;
   margin-bottom: 20px;
   text-align: center;
-  color: #393A3D;
 }
 
 .form-paragraph {
@@ -173,6 +171,9 @@ form footer {
 
 .legal-stuff p {
   margin: 8px;
+}
+.legal-stuff a {
+  color: #393A3D;
 }
 
 ul {
