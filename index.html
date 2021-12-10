@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title>Odin HTML Forms</title>
+    <meta chartset='UTF-8'>
+    <link rel='stylesheet' href='css/styles.css'>
+  </head>
+
+  <body>
+    <section class='sign-in'>
+      <section class='sign-in-text'>
+        <p>Already have an Intuit account?</p>
+        <p><a href='https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Ftask%3DS#'>I forgot my User ID or Password</a></p>
+      </section>
+      <button type='submit'><img src='img/found-through-devtools/white-lock-button-icon.svg'>Sign In</button>
+    </section>
+
+    <section class='sign-up'>
+      <header>
+        <h1><img class='logo' src='img/found-through-google/intuit-logo.png'></h1>
+        <nav>
+          <ul>
+            <li><a href='https://www.mint.com/'><img class='icon' src='img/found-through-devtools/mint-icon.svg'><img class='icon-text' src='img/found-through-devtools/mint-text.svg'></a></li>
+            <li><a href='https://quickbooks.intuit.com/'><img class='icon' src='img/found-through-devtools/qb-icon.svg'><img class='icon-text-qb' src='img/found-through-devtools/qb-text.svg'></a></li>
+            <li><a href='https://turbotax.intuit.com/'><img class='icon' src='img/found-through-devtools/tt-icon.svg'><img class='icon-text' src='img/found-through-devtools/tt-text.svg'></a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <form>
+        <h1>Create an Intuit account</h1>
+        <p>One account for everything Intuit, including Mint. <a href='https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account'>Learn more</a></p>
+        <p class='form-paragraph'>
+          <label for='email'>Email</label>
+          <input type='email' id='email' name='email'>
+        </p>
+        <p class='form-paragraph'>
+          <label for='phone'>Phone (recommended)</label>
+          <input type='phone' id='phone' name='phone'>
+          <p>Standard call, message, or data rates may apply</p>
+        </p>
+        <p class='form-paragraph'>
+          <label for='password'>Password</label>
+          <input type='password' id='password' name='password'>
+        </p>
+        <button type='submit'><img src='img/found-through-devtools/white-lock-button-icon.svg'>Create Account</button>
+        <footer class='form-footer'>
+          <p>By selecting Create account, you agree to our <a href='https://www.mint.com/terms'>Terms</a> and have read and acknowledge our <a href='https://www.intuit.com/privacy/statement/'>Global Privacy Statement</a>.</p>
+        </footer>
+      </form>
+      <footer class='sign-up-footer'>
+        <p>Invisible reCAPTCHA by Google <a href='https://www.google.com/intl/en/policies/privacy/'>Privacy Policy</a> and <a href='https://www.google.com/intl/en/policies/terms/'>Terms of Use.</a></p>
+      </footer>
+    </section>
+
+    <aside class='legal-stuff'>
+      <nav>
+        <ul>
+          <li><a href='https://www.intuit.com/legal/'>Legal</a></li>
+          <li><a href='https://www.intuit.com/privacy/statement/'>Privacy</a></li>
+          <li><a href='https://www.google.com/intl/en/policies/terms/'>Security</a></li>
+        </ul>
+      </nav>
+      <p>© 2021 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+      <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+    </aside>
+
+    <footer class='body-footer'>
+      <a href=''>Privacy Settings</a>
+    </footer>
+  </body>
+</html>
